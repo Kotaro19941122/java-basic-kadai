@@ -16,7 +16,7 @@ public class Dictionary_Chapter20 {
 		dictionary.put("peach", "桃");
 		dictionary.put("banana", "バナナ");
 		dictionary.put("lemon", "レモン");
-		dictionary.put("pear", "キウイ");
+		dictionary.put("kiwi", "キウイ");
 		dictionary.put("strawberry", "いちご");
 		dictionary.put("grape", "ぶどう");
 		dictionary.put("muscat", "マスカット");
