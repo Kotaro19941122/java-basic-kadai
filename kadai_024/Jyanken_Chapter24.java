@@ -10,9 +10,6 @@ public class Jyanken_Chapter24 {
 	// 入力用のScannerオブジェクト
 	Scanner scanner = new Scanner(System.in);
 	
-	// 乱数生成用のRandomオブジェクト
-	Random random = new Random();
-	
 	// じゃんけんの手を管理するHashMap
 	Map<String, String> handMap = new HashMap<>();
 	
@@ -51,7 +48,7 @@ public class Jyanken_Chapter24 {
 		String[] hands = {"r", "s", "p"};
 		
 		// 0～2の範囲でランダムな整数を生成し、配列から選ぶ
-		int index = random.nextInt(hands.length);
+		int index = (int)Math.floor(Math.random() * hands.length);
 		return hands[index];
 		
 	}
